@@ -1,0 +1,42 @@
+{
+  "tip": "Эту информацию запрашивает объект ТЦ Рио",
+  "rules": {
+    "action": {
+          "path": "AddingObject",
+          "params": [
+            {
+              "key": "id",
+              "value": 5
+            }
+          ]
+        }
+  },
+  "subfields": [
+    {
+      "oid":1,
+      "type":"checkBox",
+      "title":"Пропуск для такси",
+      "warning":"Внимание! Этот параметр сокращает время нахождения на территории до 30 минут"
+     },
+    {
+      "oid":2,
+      "label": "ИНН",
+      "type": "text",
+      "name": "inn",
+      "valueView": null
+    },
+    {
+      "oid":3,
+      "label": "Год рождения",
+      "type": "text",
+      "name": "birthday_year",
+      "valueView": "2010"
+    },
+    {"oid":4,
+      "label": "Как вас зовут?",
+      "type": "text",
+      "name": "text",
+      "valueView": null
+    }
+  ]
+}
