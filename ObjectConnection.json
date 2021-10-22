@@ -20,20 +20,20 @@
      },
     {
       "oid":2,
-      "label": "ИНН",
+      "hint": "ИНН",
       "type": "inputField",
       "name": "inn",
       "valueView": null
     },
     {
       "oid":3,
-      "label": "Год рождения",
+      "hint": "Год рождения",
       "type": "inputField",
       "name": "birthday_year",
       "valueView": "2010"
     },
     {"oid":4,
-      "label": "Как вас зовут?",
+      "hint": "Как вас зовут?",
       "type": "inputField",
       "name": "text",
       "valueView": null
